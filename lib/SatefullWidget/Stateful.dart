@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hoc_flutter/SatefullWidget/FavoriteButton.dart';
 
 class Stateful extends StatelessWidget {
-  const Stateful({Key? key}) : super(key: key);
+  const Stateful({super.key});
 
   @override
   Widget build(BuildContext context) {
