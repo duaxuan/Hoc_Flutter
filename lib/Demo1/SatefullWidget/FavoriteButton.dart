@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class FavoriteButton extends StatefulWidget {
-  const FavoriteButton({super.key, required this.isFavorite});
+class Favoriteful extends StatefulWidget {
+  const Favoriteful({super.key, required this.isFavorite});
 
   final bool isFavorite;
 
   @override
-  State<FavoriteButton> createState() => FavoriteButtonState();
+  State<Favoriteful> createState() => FavoriteButtonState();
 }
 
-class FavoriteButtonState extends State<FavoriteButton> {
+class FavoriteButtonState extends State<Favoriteful> {
   var isFavorite = false;
 
   @override

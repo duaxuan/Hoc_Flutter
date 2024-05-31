@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hoc_flutter/StatelessWidget/FavoriteButton.dart';
+import 'package:hoc_flutter/Demo1/StatelessWidget/FavoriteButton.dart';
 
 class Stateless extends StatelessWidget {
-  const Stateless({Key? key}) : super(key: key);
+  const Stateless({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hoc_flutter/SatefullWidget/FavoriteButton.dart';
+import 'package:hoc_flutter/Demo1/SatefullWidget/FavoriteButton.dart';
+import 'package:hoc_flutter/Demo1/StatelessWidget/FavoriteButton.dart';
 
 class LifecycleDemo extends StatefulWidget {
   const LifecycleDemo({super.key});
@@ -23,9 +24,9 @@ class LifecycleDemoState extends State<LifecycleDemo> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             if (isStateful)
-              const FavoriteButton(isFavorite: true)
+              const Favoriteful(isFavorite: true)
             else
-              const FavoriteButton(isFavorite: false),
+              const Favoriteless(isFavorite: false),
             if (isStateful)
               const Text('Stateful Widget')
             else

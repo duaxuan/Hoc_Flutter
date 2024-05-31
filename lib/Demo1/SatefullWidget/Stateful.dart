@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hoc_flutter/SatefullWidget/FavoriteButton.dart';
+import 'package:hoc_flutter/Demo1/SatefullWidget/FavoriteButton.dart';
 
 class Stateful extends StatelessWidget {
   const Stateful({super.key});
@@ -12,7 +12,7 @@ class Stateful extends StatelessWidget {
         title: const Text('Demo Stateful Widget'),
       ),
       body: const Center(
-        child: FavoriteButton(isFavorite: true),
+        child: Favoriteful(isFavorite: true),
       ),
     );
   }

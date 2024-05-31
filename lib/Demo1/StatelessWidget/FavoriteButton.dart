@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Favoriteless extends StatelessWidget {
-  const Favoriteless({Key? key, required this.isFavorite}) : super(key: key);
+  const Favoriteless({super.key, required this.isFavorite});
 
   final bool isFavorite;
 
